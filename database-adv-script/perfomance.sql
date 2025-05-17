@@ -18,3 +18,4 @@ JOIN Property p ON b.property_id = p.id
 JOIN Payment pay ON pay.booking_id = b.id;
 WHERE
 AND
+EXPLAIN
